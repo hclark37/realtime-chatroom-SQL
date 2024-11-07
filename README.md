@@ -14,7 +14,10 @@ The project consists of the following PHP files:
 
 Installation:
 
-Set up the SQL database
-```git clone https://github.com/yourusername/realtime-chatroom-SQL.git
+- Set up the SQL database
+```
+git clone https://github.com/yourusername/realtime-chatroom-SQL.git
 chmod 755 *.php
+systemctl restart nginx
+systemctl restart php8.2-fpm
 ```
