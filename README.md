@@ -11,3 +11,10 @@ The project consists of the following PHP files:
 - register.php: Page for new users to register.
 - login.php: Page for existing users to log in.
 - main.php: Main chatroom page where users can send and receive messages in real-time.
+
+Installation:
+
+Set up the SQL database
+```git clone https://github.com/yourusername/realtime-chatroom-SQL.git
+chmod 755 *.php
+```
